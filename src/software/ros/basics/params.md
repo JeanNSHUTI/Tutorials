@@ -57,8 +57,8 @@ rosparam set /motors/front/left 6.0
 It is often the case that your nodes will have to access the parameter server during start up to retrieve configuration information, or set a parameter value. This can be done quite easily in Python, to set a parameter use:
 
 ```python
-rospy.param_set(/motors/front/left, 6.0)
-rospy.param_get(/motors/front/left)
+rospy.set_param(/motors/front/left, 6.0)
+rospy.get_param(/motors/front/left)
 ```
 
 
