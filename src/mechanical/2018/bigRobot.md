@@ -80,6 +80,8 @@ Once the block is on the right floor, it has to be pushed outside of the lift to
 
 Furthermore, to push the block, we use a dynamixel with a gear and a tooth rack to slide a plate along which pushes the block until it reaches the « shelf ». 
 
+![img](mechanical/2018/bigRobotSrc/tooth_rack.png)
+
 Then the lift (without any block inside) goes down. To make sure it doesn’t go too much we use another limit switch. 
 Therefore the lift is immediately stopped, another cube comes in and we can do the cube lifting steps mentioned before over again until all the cubes of the tower are placed. 
 
