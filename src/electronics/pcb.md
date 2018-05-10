@@ -77,34 +77,34 @@ from std_msgs.msg import Empty
 raspberry = "-r" in sys.argv
 
 pi = None
-#If passed the -r argument, load the rapsberry libs
+# If passed the -r argument, load the rapsberry libs
 if raspberry:
     import pigpio
     pi = pigpio.pi()
 
 rospy.init_node('startup_conf')
 
-#Robot
+# Robot
 robot = rospy.get_param("/robot")
 
 pub_start = rospy.Publisher('start', Empty, queue_size=1)
 pub_reset = rospy.Publisher('reset', Empty, queue_size=1)
 
 
-#GPIO PIN CONFIGURATIONS
+# GPIO PIN CONFIGURATIONS
 #This pin will be used to configure the team
 pin_team = 23
 
-#This pin will be used to drive a led to indicate that the team has been set correctly in ROS
+# This pin will be used to drive a led to indicate that the team has been set correctly in ROS
 pin_team_feedback = 21
 
-#This pin will be used to drive a led to indicate that the start is understood by ROS
+# This pin will be used to drive a led to indicate that the start is understood by ROS
 pin_strategy_feedback = 20
 
-#This pin will be used to launch robot
+# This pin will be used to launch robot
 pin_start = 12
 
-#Function to set team parameter in the configuration file 
+# Function to set team parameter in the configuration file 
 def update_team(gpio, level, tick):
     if raspberry:
         if level:
@@ -115,7 +115,7 @@ def update_team(gpio, level, tick):
             rospy.set_param("/team", "green")
             rospy.set_param("/reset/position", rospy.get_param("/start/{}/green/position".format(robot)))
             
-   #Blink 2 times for acknowledge
+   # Blink 2 times for acknowledge
             pi.write(pin_team_feedback, 0)
     else:
         choice = random.choice(["green", "red"])
@@ -131,7 +131,7 @@ def update_team(gpio, level, tick):
 
 publish = True
 
-#If high level on start pin this function publish on the start topic
+# If high level on start pin this function publish on the start topic
 def start(gpio, level, tick):
     global publish
     rospy.sleep(0.2)
@@ -141,7 +141,7 @@ def start(gpio, level, tick):
             pub_start.publish(Empty())
             publish = False
 
-#Function to reset all set parameters
+# Function to reset all set parameters
 def reset():
     pub_reset.publish(Empty())
     if raspberry:
