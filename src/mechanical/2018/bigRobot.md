@@ -127,7 +127,7 @@ Most of the part are home made (CNC, 3D printing) but some parts a bought on the
   
   # Authors
   
-  Crappe Martin
+  Crappe Martin  
   Hagopian Armen
   
 
