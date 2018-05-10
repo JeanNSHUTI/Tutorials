@@ -180,7 +180,7 @@ A widget is automatically created and the component is now attached to your mous
 
 By hitting the "d" key you can start indicating the dimensions you want to specify. Save to PDF and your done.
 
-## 6.2. Export 3D design  (3D printing)
+## 3.2. Export 3D design  (3D printing)
 Now comes the fun part: 3D printing your own designs. You'll see that it is really satisfying to see something you designed your own "come to live" in the printer and to do so you will have to export you design as an '.stl' file.
 
 First start by hitting the "make" icon in the top bar.
