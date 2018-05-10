@@ -68,6 +68,7 @@ The following code is launched with ROS (if you haven't read yet this section, i
 when the start switch is pulled. This last action indicates to all script listening this topic the beginning of a game. 
 
 '''python 
+
 import sys
 import random
 import rospy
