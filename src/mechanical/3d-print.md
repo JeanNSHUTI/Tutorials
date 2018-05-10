@@ -107,6 +107,9 @@ It would be out of the topic to list all of them here but we encourage you to re
 - [Print Quality Troobleshooting Guide Anet](mechanical/References/Print_Quality_Troobleshooting_Guide-Anet.pdf)
 - [Warpping problems](http://www.primante3d.com/curling-29082016/)
 
+
+
+--------------------------------------
 ## Contributors
 - Puissant Baeyens Victor, 12098, [MisterTarock](https://github.com/MisterTarock)
 - De Decker William, 14130, [WilliamHdd](https://github.com/WilliamHdd)

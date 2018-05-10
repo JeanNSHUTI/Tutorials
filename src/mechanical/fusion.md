@@ -197,6 +197,7 @@ To **3D print it from your computer** select "Send to 3D print utility" and link
 
 
 
+--------------------------------------
 ## Contributors
 - Puissant Baeyens Victor, 12098, [MisterTarock](https://github.com/MisterTarock)
 - De Decker William, 14130, [WilliamHdd](https://github.com/WilliamHdd)
