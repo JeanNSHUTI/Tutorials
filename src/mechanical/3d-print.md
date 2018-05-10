@@ -1,38 +1,35 @@
 # 1. How to think 3D printing
 Now that you know how to design in 3D and export your file to a slicer, we'll take you straight to the world of the 3D printing. We'll see his amazing abilities but also his limitations.
 
-## 1.1. Think mechanical properties
+## 1.1. Think "mechanical properties"
 When you'll have to create a mechanical piece for your robot, you have to think about the way you'll use it.
-For example, if it's a piece that have will be put in contact with water, a lot of people will have the tendency to say: "You have to use ABS!"
-Right now there other possibilities as the PETG and so on. Each one of them have their advantages and their defaults.
-It's true that the ABS will have better mechanical resistance against wear and tear than the PLA but you'll have to pay more attention at the temperature variation and the wrapping problems.
-That's only the top of the iceberg for the materials, if you're interested on knowing more about it, you can still find a lot on the web on divers site like this one: [Primant3D](http://www.primante3d.com/materiaux/).
+For example, if it's a piece that will be in contact with water, a lot of people will have the tendency to say: "You have to use ABS!"
+Right now there are other possibilities as the PETG that have similar properties but has less warping. Each one of them have their advantages and their defaults.
+It's true that the ABS will have better mechanical resistance against wear and tear than PLA but you'll have to pay more attention at the temperature variation and the wrapping problems.
+ That's only the top of the iceberg for the materials, if you're interested by knowing more about it, you can still find a lot on the web on divers site like: [Primant3D](http://www.primante3d.com/materiaux/).
 
-Another simple tips is to think of the way of the fibers during the use of the pieces.
-As you see on this piece, a Pelton wheel (an hydraulic mill), at first, the shaft and the wheel were design as in one piece.
+Another simple tip is to think about the way the fibers during the use of the pieces.
+As you can see on this piece, a Pelton wheel , at first the shaft and the wheel were design as in one piece.
 ![img](img/mechanical/3d-print/Pelton_wheel_1.png)
 
-After thought, as the shaft will have to oppose strength in the radial way, it's way more efficient to print it horizontal and not vertical (where the layers would detached them).
-For the wheel, it's the opposite, the spoon have to go against strength in the perpendicular way, so it had to be printed also horizontal, laying on the bed.
+After thought, as the shaft will have to oppose strength in the radial way, it's way more efficient to print it horizontaly than verticaly (where the layers would detache).
+For the wheel, it's the opposite. The spoons have to go against strength in the perpendicular way, so it had to be printed also horizontal, laying on the bed.
 It was then decided to print them in two pieces.
 ![img](img/mechanical/3d-print/Pelton_wheel_2.png)
 
 ## 1.2. Think about the supports
-As you'll see in the point **3. Printer Configuration**, there are a lot of different parameter to take into account.
-In this point, we'll speak about the supports, their necessity or their troubles.
-As you see on the picture below, there a lot of support placed to help the printer.
-As the print is done layer by layer, it need support to help the extrusion of part above empty space.
+As you'll see in the point **3. Printer Configuration**, there are a lot of different parameters to take into account. In this point, we'll speak about the supports, their necessity and their troubles.
+As you can see on the picture below, there a lots of support placed to help the printer. As the print is done layer by layer, it needs supports to help the extrusion of part on empty space.
 ![img](img/mechanical/3d-print/Support_1.png)
 *Note that you'll have to be in layer view to see them (Top-Right Corner)*
 
-The most used to tune your print is the **Overhang Angle**, It will allow you to control the amount and place of the support.
+The most used to tune your print is the **Overhang Angle**, it will allow you to control the amount and place of the supports.
 ![img](img/mechanical/3d-print/Support_2.png)
 
-The use of limiting the amount of support made is to reduce waste, reduce printing time (in this case 1h45) but also cleaning time as you'll have to cut or tear them apart by hand.
-There is possibility with dual extrusion to print them with PVA (water soluble filament) but it require a more expensive printer.
+The use of limiting the amount of support is to reduce waste, reduce printing time (in this case 1h45) but also cleaning time as you'll have to cut or tear them apart by hand. There is a possibility with dual extrusion to print them with PVA (water soluble filament) but it requires a more expensive printer.
 
-However, I recommend to try the other parameters seen on the picture because they make the support's removing way easier than the default one.
-
+However, I recommend to try the parameters shown on the picture because they make the removing of supports way easier than the default one.
+<!--fin de relecture-->
 ## 1.3. Think about the face laying on the heat bed
 As said before, the printer will often need support, but the orientation of the piece on the bed will also help a lot to reduce them.
 In this piece, simply by laying it on one face, you'll remove all the need of support.
