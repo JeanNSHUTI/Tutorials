@@ -67,7 +67,7 @@ The following code is launched with ROS (if you haven't read yet this section, i
 2018 robots. The aim of this code is the setting of a parameter in a configuration file in the first place, next the code publish on the start topic 
 when the start switch is pulled. This last action indicates to all script listening this topic the beginning of a game. 
 
-'''python 
+```python 
 
 import sys
 import random
@@ -170,7 +170,7 @@ else:
 
 while not rospy.is_shutdown():
     pass
-'''
+```
 
 Below, you have the circuit to implement  between the board and the raspberry running ROS
 
@@ -191,12 +191,13 @@ sequence. It was not used in 2018 due to a lack of time but they are already on 
 Finally, in the real implementation on ROS, the pin configuration is placed in a .yaml file gathering all information required about raspberry pinout.
 Then, the code used to get pin number is 
 
-'''yaml
+```yaml
 rospy.get_param("/path/name")
-'''
+```
 
 
 [Github link for code](https://github.com/Ecam-Eurobot/Eurobot-2018/blob/differential_driver/ros_packages/strategy/src/startup_conf.py)
+
 --- [OneDrive link for Altium project](https://) ---
 
 ## Motor Board
@@ -239,7 +240,7 @@ velocity of the wheel in rad/s.
 The H bridge is used for power two motors at the same. One the left side of the board there are all control pins (PWM and DIR for the two motors)
 and power supply of command (5V). On the other side of the board, you have the motor output and the motor power supply (24V).
 
-'''cpp
+```cpp
 #includes <Wire.h>
 #includes <PID_v1.h>
 #includes <ecamlib.h>
@@ -324,7 +325,7 @@ void isrt(){
     // Angular velocity 
     omega = ( (2.0 * 3.141592 * (double)deltaEncoder) / ENCODER_TICKS_PER_REV ) / dt;  // rad/s
 }
-''' 
+```
 
 Remark : All used library is on Github (see link at the end)
 
@@ -347,7 +348,8 @@ Now the next step is to give the control of the motor velocity to ROS core on th
 concepts are explained in the ROS serial section. On the motor side, a function is added on the main code on the arduino UNO to receive data from master
 and set value of PID (proportional gain, integrative gain, derivative gain and velocity setpoints.
 
-'''cpp
+```cpp
+
 // function that executes whenever data is received from the master
 // this function is registered as an event, see setup()
 void receiveEvent(int howMany) {
@@ -423,7 +425,8 @@ void receiveEvent(int howMany) {
         }
     }
 }
-'''
+
+```
 
 ### Upload protocol for ATmega 328 
 If you understood the tutorial with arduino UNO and want to use the ATmega328, you just have to use PCB with connection show below and implement the 
@@ -432,6 +435,7 @@ code exposed above on the ATmega328. This mocrocontroller is programmed with the
 --- PIC OF THE CIRCUIT --- Motor board + H Bridge + MOTOR - DRAW CONNECTION --- After robot's deconstruction
 
 [Github link for code](https://github.com/Ecam-Eurobot/Eurobot-2018/tree/arduino-pid/arduino)
+
 --- [OneDrive link for Altium project](https://) ---
 
 ## Arduino Communication Shield - SPI Broker
@@ -439,6 +443,7 @@ Motor command communication consists of a two-level interface. ROS communicate v
 The utility of this PCB concerns SPI and Ros Serial, you will find more explanation about these subjects in the related section. 
 
 [Broker Front View](pictures/Broker_F.JPG =100x20) [Broker Top View](pictures/Broker_T.JPG =100x20) 
+
 --- [OneDrive link for Altium project](https://) --
 
 
@@ -456,4 +461,5 @@ About the SPI connector (10 pins shrouded header) it was not strong enough. The 
 In the two situations, we advise against the use of these two types of connector, there are a lot of alternative solutions. 
 
 ![JST connector](pictures/JST_Connector.JPG =100x20) 
+
 ![10 pins shrouded headers](pictures/10Pins_shroudedHeaders.JPG =100x20)
