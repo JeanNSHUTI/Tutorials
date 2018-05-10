@@ -213,9 +213,8 @@ To **3D print it from your computer** select "Send to 3D print utility" and link
               combine de dif elem pour impression monobloc
 
 ## 8. parametre d'impression et défaut d'impression      PUISS
-
-## 9. tour de marché sur les différentes imprimantes sur le marché      PUISS + WILL
 -->
+
 
 ## Contributors
 - Puissant Baeyens Victor, 12098, [MisterTarock](https://github.com/MisterTarock)
