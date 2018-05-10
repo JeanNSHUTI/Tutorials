@@ -190,11 +190,43 @@ switch (mySPI.command) {
 
     
 ### Troubleshooting
+>Patched but not fixed
 
 ##### 1. Problem between serial port (ROSSERIAL) and SPI bus
-##### 2. sometimes the slave update the value of a register with the value received previously 
-##### 3. Changing the values of a register when reading another register
+There is a competition between Rosserial and the SPI since both use the serial bus. when one ROS sends a data via the serial port, the communication SPI is interrupted.
 
+Patch : simply initialize the SPI communication before each data transfer
+
+```c
+void message_to_FR( const std_msgs::Float32 & toggle_msg){
+	x.val = toggle_msg.data;
+	connFR.initialize();
+	connFR.writeData(0x10, 0x04, x.b);
+}
+```
+
+##### 2. sometimes the slave update the value of a register with the value received previously 
+we observed that sometimes the received data are updated with a delay of ONE communication. The problem is that if the time between two communications is long, there will be latency before the update in the registry.
+
+Patch : The data is sent by ROS every 50ms even if it is not changed (see on [motor_sim.py](https://github.com/Ecam-Eurobot/Eurobot-2018/blob/master/ros_packages/mecanum/src/motor_sim.py))
+
+
+##### 3. Changing the values of a register when reading another register
+When we want to read the return of a slave encoder we send a series of null bytes after the address byte to receive the value. But these null values are misinterpreted and the engine speed drops to zero. Probably from a coding error.
+
+Patch : We send velocity value instead of null bytes. (just using during the Eurobot sprint)
+
+#Just for curious
+[https://github.com/Sellto/SPIandROS_HelloWord](https://github.com/Sellto/SPIandROS_HelloWord)
+
+Three simples scripts to train you with ours SPI objects and with or without rosserial communication.
+
+Decription of the situation : 
+
++ The two slaves has a LED connected to pin 4 whose state is modifiable by a SPI register.
++ The master is connected to ROS which controls the flashing speed of each led.
+
+Video-Tuto : ASAP
 
 # References
  [https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
