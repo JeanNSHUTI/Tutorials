@@ -42,7 +42,7 @@
     - [Image processing](software/image-processing.md)
 
 - [Robots](robots/robots.md)
-    - [Structure of folder](robots/minus/structure.md)
+    - [Structure of folder](robots/structure.md)
     - [Minus](robots/minus/minus.md)
         - [Architecture](robots/minus/architecture.md)
         - [Packages](robots/minus/packages.md)
