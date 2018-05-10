@@ -24,6 +24,9 @@ For the wheel, it's the opposite, the spoon have to go against strength in the p
 It was then decided to print them in two pieces.
 ![img](img/mechanical/3d-print/Pelton_wheel_2.png)
 
+## 1.2. Think about the supports
+When you'll have to print
+
 
 # 2. What printer to choose?
 The offer in mater of 3D printers is enormous and can be confusing to an unexperimented printer. And even if you know what you are looking for, you can find the same looking printer for at least 10 different prices and brands. As a matter of fact a lot of companies copy the "big ones" and sale these copies a lot cheaper. These copies can be a very good investment for non-professional work and can save you quite a few euros.
@@ -51,24 +54,25 @@ Delta 3D printers were designed for speed, but they also have the distinction of
 
 Cartesian printers are better for details and easier to build and maintain, but slower.
 
-## 2.3. Details
+## 2.3. Precision
 As you might expect, cheap printers (100€-400€) don't have the same accuracy as semi-professional ones that cost about 2000€ (Ultimakers for example). This can be scaring at first, but think about it this way: do you really need to print at a resolution of 20 microns (an aluminum sheet is about 16 microns )? For most of the prints you'll make a precision of 0,2mm and a little bit of sanding is more than enough. You can find more than decent printers for around 200€ (Anet a6) for medium bed sizes. Larger bed printers will cost about 300€ (Creality3D CR - 10). Note that these printers are DIY printers so you'll have to assemble them your own. This might take a few days, but is a piece of cake with the manual and will save you a few hundred euros.
 
 ## 2.4. Links
 To close the subject, here are some links you could find handy for you search of a 3Dprinter to acquire or to improve.
- <a href="">Thingiverse</a>
- <a href=""></a>
- <a href=""></a>
- <a href=""></a>
- <a href=""></a>
- <a href=""></a>
- <a href=""></a>
- <a href=""></a>
- <a href=""></a>
- <a href=""></a>
+- [Thingiverse AnetA8](https://www.thingiverse.com/search/page:1?q=Anet+A8&sa=&dwh=525af4b8e015a6f)
+- [Instructables improvement](http://www.instructables.com/id/Transform-a-chinese-3D-printer-in-a-high-precision/)
+- [Choose between a Bowden or Direct extruder](http://www.fabbaloo.com/blog/2015/11/11/bowden-or-direct-a-primer-on-extruder-styles)
+- [Anet A8 vs A6](https://pevly.com/anet-a8-vs-a6/)
+- [Anet A8 improvement](http://www.instructables.com/id/2000-Quality-Prints-From-a-200-Printer-an-Upgrade-/)
+- []()
+- []()
+- []()
+
 
 
 # 3. Printer Configuration
+
+[Warpping problems](http://www.primante3d.com/curling-29082016/)
 <!--
 ## 8. parametre d'impression et défaut d'impression      PUISS
 -->
