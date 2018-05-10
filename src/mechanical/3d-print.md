@@ -1,13 +1,11 @@
 <!--
 ## 7. spécificité pour impression 3D     PUISS
-              sens de fibres
-              penser support et nettoyage de support
+
               penser face sur le bed
               combine de dif elem pour impression monobloc
 -->
 
 # 1. How to think 3D printing
-
 Now that you know how to design in 3D and export your file to a slicer, we'll take you straight to the world of the 3D printing. We'll see it's amazing abilities but also it's limitations.
 
 ## 1.1. Think mechanical properties
@@ -25,7 +23,20 @@ It was then decided to print them in two pieces.
 ![img](img/mechanical/3d-print/Pelton_wheel_2.png)
 
 ## 1.2. Think about the supports
-When you'll have to print
+As you'll see in the point **3. Printer Configuration**, there are a lot of different parameter to take into account. In this point, we'll speak about the supports, their necessity or their troubles.
+As you see on the picture below, there a lot of support placed to help the printer. As the print is done layer by layer, it need support to help the extrusion of part above empty space.
+![img](img/mechanical/3d-print/Support_1.png)
+*Note that you'll have to be in layer view to see them (Top-Right Corner)*
+
+The most used to tune your print is the **Overhang Angle**, It will allow you to control the amount and place of the support.
+![img](img/mechanical/3d-print/Support_2.png)
+
+The use of limiting the amount of support made is to reduce waste, reduce printing time (in this case 1h45) but also cleaning time as you'll have to cut or tear them apart by hand. There is possibility with dual extrusion to print them with PVA (water soluble filament) but it require a more expensive printer.
+
+However, I recommend to try the other parameters seen on the picture because they make the support's removing way easier than the default one.
+
+## 1.3. Think about the face laying on the heat bed
+
 
 
 # 2. What printer to choose?
