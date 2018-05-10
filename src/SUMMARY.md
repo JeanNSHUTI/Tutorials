@@ -41,4 +41,11 @@
             - [Navigation stack](software/ros/packages/nav.md)
     - [Image processing](software/image-processing.md)
 
+- [Robots](robots/robots.md)
+    - [Structure of folder](robots/minus/structure.md)
+    - [Minus](robots/minus/minus.md)
+        - [Architecture](robots/minus/architecture.md)
+        - [Packages](robots/minus/packages.md)
+        - [How to run the robot](robots/minus/howto.md)
+
 [Appendix A: Graphic chart](graphic/graphic_chart.md)
