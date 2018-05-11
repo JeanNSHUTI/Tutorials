@@ -29,7 +29,7 @@ The most used to tune your print is the **Overhang Angle**, it will allow you to
 The use of limiting the amount of support is to reduce waste, reduce printing time (in this case 1h45) but also cleaning time as you'll have to cut or tear them apart by hand. There is a possibility with dual extrusion to print them with PVA (water soluble filament) but it requires a more expensive printer.
 
 However, I recommend to try the parameters shown on the picture because they make the removing of supports way easier than the default one.
-<!--fin de relecture-->
+
 ## 1.3. Think about the face laying on the heat bed
 As said before, the printer will often need support, but the orientation of the piece on the bed will also help a lot to reduce them.
 In this piece, simply by laying it on one face, you'll remove all the need for support.
