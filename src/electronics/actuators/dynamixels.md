@@ -55,25 +55,27 @@
 *	in these details, it is possible to modify the configuration of the dynamixel like its ID, its communication speed (baudrate), its working speed, etc, or also to control it in real time.
 
 
-# Exemples of use
+# Examples of use
 
 To use the dynamixels, it is necessary to download first the library "AX_12A_servo_library" that you can find on the github of eurobot here : https://github.com/Ecam-Eurobot/Tutorials/tree/master/src/electronics/actuators/Dynamixels_SRC
 
 You'll have to extract it and place it in Documents/Arduino/libraries.
 
+To configure the dynamixels, we'll use the Arduino software app.
+
 This library possess 4 exemples of use of the dynamixel : 
--	Blink : exemple de contrôle de la led rouge se trouvant à l’arrière du dynamixel
--	Move : exemple de contrôle du dynamixel en mode servomoteur en lui attribuant des positions
--	EndlessTurn : utilisation du dynamixel en mode moteur DC (ou wheel mode)
--	ReadRegister : sert à afficher le contenu des registres du dynamixel
+-	Blink : example of control of the red led you can find in the back of every dynamixel
+-	Move : example of control of the dynamixel in servomotor mode by giving it a position
+-	EndlessTurn : example of use in DC motor mode (or wheel mode)
+-	ReadRegister : usefull to dispaly the contents of the registers of the dynamixel
 
-Ces exemples se trouvent dans Fichier>Exemples>AX-12A.
+These examples are located in Fichier>Exemples>AX-12A on the Arduino app on your computer.
 
-Après avoir sélectionner un des exemples, il faut inclure la librairie AX-12A sans déclarer un chemin spécifique car la librairie se trouve dans le dossier « libraries » du dossier « Arduino ».
+After selecting one of the examples, you have to include the library AX-12A without declaring a specific path because the library is located in the fold "libraries" of the fold "Arduino".
 
  ![alt text](electronics/actuators/Dynamixels_SRC/Exemples_Include.png )
 
-Ensuite il suffit de configurer 3 lignes dans le code qui répondront aux besoins et à la configuration du dynamixel branché :
+After that you have to configure 3 lines in the code that respond to the needs of the configuration of the connected dynamixel you want to configure :
 
 #define DirectionPin  (10u)
 #define BaudRate      (1000000ul)
