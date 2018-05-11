@@ -94,3 +94,11 @@ The package reads the values and depending on the position of the robot (`move_b
 
  ## Strategy
 
+In this package, we declare the strategy used by each robot in parameter files.
+
+* **initial.yaml**: contains the position of the robots at the beginning of the game based on whether we are the red or green team.
+* **game.yaml**: Contains game-specific information such as the duration of a game.
+* **minus/cortex_actions.yaml**: contains the different actions that the robot must perform.
+
+> For more information about what is a [parameter file](software/ros/basics/params.html).
+
