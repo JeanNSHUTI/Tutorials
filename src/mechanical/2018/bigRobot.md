@@ -87,7 +87,11 @@ Therefore the lift is immediately stopped, another cube comes in and we can do t
 
 
 As mentioned above, we are using DC motors to control our lift. 
-We have in all 3 motors and they are all connected to a L298 driver (see picture below) controlled by an Arduino Uno board. 
+We have in all 3 motors and they are all connected to a L298 driver (see picture below) controlled by an Arduino Uno board.  
+
+Here is a link where you can buy the driver :  
+
+<https://www.amazon.fr/L298-Motor-Driver/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3AL298%20Motor%20Driver>
 
 ![img](mechanical/2018/bigRobotSrc/driver_L298.png)
 
