@@ -4,7 +4,7 @@
 
 ## 3D sketch
 
-all the parts of the ball gun is designed on Fusion 360 and printed on a 3D printer except of the balls and the wheel.
+All the parts of the ball gun is designed on Fusion 360 and printed on a 3D printer except of the balls and the wheel.
 
 ## Why a ball gun?
 
