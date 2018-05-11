@@ -20,7 +20,12 @@ After lots of discussions with the team, I decided to choose the ball gun to com
 
 The next step was to control the speed of the wheel so we could control the distance the ball make after throwing by the ball gun.
 
-I used a small motor driver as the L293D which the specifications were in agreement with the needs of the DC motor. To control the H bridge driver, I used a simple arduino uno with a PWM signal so we could test different speeds of the motor. 
+I used a small motor driver as the L293D which the specifications were in agreement with the needs of the DC motor. 
+
+![alt text](mechanical/2018/BallGun_SRC/L293DAbsolute.png )
+![alt text](mechanical/2018/BallGun_SRC/L293DRecommended.png )
+
+To control the H bridge driver, I used a simple arduino uno with a PWM signal so we could test different speeds of the motor. 
 
 ![alt text](mechanical/2018/BallGun_SRC/SchemaBlock.png )
 
