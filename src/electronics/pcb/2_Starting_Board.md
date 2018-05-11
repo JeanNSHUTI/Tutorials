@@ -168,7 +168,7 @@ while not rospy.is_shutdown():
 
 Below, you have the circuit to implement  between the board and the raspberry running ROS
 
-[Start PCB Front](electronics/pcb/pictures/Start_F.jpg)
+![Start PCB Front](electronics/pcb/pictures/Start_F.jpg)
 
 * The two couples of black and red wires are the 5V 
 * The white wire is connected to the pin 12 on the raspberry and send startup interrupt information
@@ -188,7 +188,6 @@ Then, the code used to get pin number is
 ```python
 rospy.get_param("/path/name")
 ```
-
 
 [Github link for code](https://github.com/Ecam-Eurobot/Eurobot-2018/blob/differential_driver/ros_packages/strategy/src/startup_conf.py)
 
