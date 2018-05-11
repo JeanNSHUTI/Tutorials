@@ -77,11 +77,11 @@ After selecting one of the examples, you have to include the library AX-12A with
 
 After that you have to configure 3 lines in the code that respond to the needs of the configuration of the connected dynamixel you want to configure :
 
-'''
+```
 #define DirectionPin  (10u)
 #define BaudRate      (1000000ul)
 #define ID            (1u)
-'''
+```
 
 DirectionPin sert à indiquer le sens de communication du dynamixel, 10u étant l’écriture dans les registres il n’est pas nécessaire de modifier sa valeur.
 
