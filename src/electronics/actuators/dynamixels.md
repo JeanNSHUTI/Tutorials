@@ -1,17 +1,20 @@
 # Introduction
 
-Les dynamixels sont des servomoteurs ayant un angle de fonctionnement de 300° répartis sur des valeurs allant de 0 à 1023.
+Dynamixels are servomotors with a working angle of 300° dispatched on values 0 to 1023.
 
 ![alt text](electronics/actuators/Dynamixels_SRC/AngleFonctionnement.png )
 
-Ils ont aussi la particularité de pouvoir être utilisés en tant que moteur DC. Ils ont un très bon couple moteur ce qui les rend efficaces pour un grand nombre d’applications. Dans nos robots, nous les avons utilisés pour leurs actions à réaliser pendant la compétition, à savoir :
-*	Trier des balles de différentes couleurs
-*	Déployer un bras servant à pousser un objet roulant
-*	Déployer une plateforme sur plusieurs étages afin de libérer des blocs cubiques
-*	Retenir ou non les blocs de chaque étage
-*	Actionner un engrenage servant à déplacer des blocs cubiques
+They also have the particularity of beeing able to be used as DC motor. They have a very good motor torque what makes them efficient for a big number of applications. In our robots, we used them for the tasks the robots had to realise during the competition as : 
 
-Le câblage se fait à l’aide de petits connecteurs 3pins. 
+*	Sort balls of different colors
+*	Deploy an arm to push an object on wheels
+*	Deploy a platform on multiple floors to liberate cubic blocks
+*	Maintaining the blocks on every floor or not
+*	Actionate a gear to move blocks
+
+The cabling is made with JST 3 pin connectors from a servomotor to another.
+
+Here is a link on amazon to order some : https://www.amazon.fr/ensembles-Micro-connecteur-Fiche-150mm/dp/B01DU9OY40/ref=sr_1_2?ie=UTF8&qid=1525997056&sr=8-2&keywords=jst+connecteur+3+pin&dpID=51oVa4jux4L&preST=_SY300_QL70_&dpSrc=srch
 
  ![alt text](electronics/actuators/Dynamixels_SRC/PinsConnections.png )
 
