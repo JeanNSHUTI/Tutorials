@@ -43,9 +43,10 @@
 
 - [Robots](robots/robots.md)
     - [Structure of folder](robots/structure.md)
-    - [Minus](robots/minus/minus.md)
-        - [Architecture](robots/minus/architecture.md)
-        - [Packages](robots/minus/packages.md)
-        - [How to run the robot](robots/minus/howto.md)
+    - [2018](robots/2018.md)
+        - [Minus (big robot)](robots/minus/minus.md)
+            - [Architecture](robots/minus/architecture.md)
+            - [Packages](robots/minus/packages.md)
+            - [How to run the robot](robots/minus/howto.md)
 
 [Appendix A: Graphic chart](graphic/graphic_chart.md)
