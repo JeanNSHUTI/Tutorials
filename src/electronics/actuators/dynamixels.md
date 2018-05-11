@@ -18,6 +18,10 @@ Here is a link on amazon to order some : https://www.amazon.fr/ensembles-Micro-c
 
  ![alt text](electronics/actuators/Dynamixels_SRC/PinsConnections.png )
 
+The Dynamixels have 2 locations for these connectors because it is possible to connect several servomotors in series and to control them with an addressing. These adresses are represented by unique ID for every dynamixel and it is possible to check with the software Dynamixel Wizard of Roboplus and a USB2Dynamixel.
+
+![alt text](electronics/actuators/Dynamixels_SRC/USB2Dynamixel.png )
+
 Les dynamixels possèdent 2 emplacement pour ces connecteurs car il est possible de connecter plusieurs servomoteurs en série et de les contrôler avec un adressage. Ces adresses sont représentées par des ID uniques pour chaque dynamixel qu’il est possible de vérifier à l’aide du Dynamixel Wizard du logiciel Roboplus et d’une interface USB2Dynamixel. 
 Grâce à ce logiciel, il est également possible de configurer les dynamixels (registres) dont, entre autre, le baudrate du servomoteur ainsi que d’accéder à toute une série d’informations temps réel comme la vitesse, la position, etc.
 
