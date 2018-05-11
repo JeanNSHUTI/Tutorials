@@ -20,46 +20,48 @@
 
 # Dynamixel Wizard
 
-*	Télécharger le logiciel RoboPlus sur le site www.robotis.com en allant dans Support>Download>Software>Roboplus
+*	Download and install the software "Roboplus" on the website www.robotis.com when going in Support>Download>Software>Roboplus
  
  ![alt text](electronics/actuators/Dynamixels_SRC/DW_Roboplus.png )
  
-*	Lancer le logiciel et cliquer sur Dynamixel Wizard
+*	Launch the software and clic on Dynamixel Wizard 
 
  ![alt text](electronics/actuators/Dynamixels_SRC/DW_DynamixelWizard.png )
 
-*	Insérer l’interface USB2Dynamixel dans un port USB de l’ordinateur 
-*	Brancher le connecteur 3 pins dans l’interface USB2Dynamixel (coté TTL) et dans le dynamixel à vérifier ou configurer
-*	Sélectionner « TTL » à l’aide du switch sur l’interface USB2Dynamixel
-*	Alimenter le dynamixel séparément dans sa plage de tension de fonctionnement (9-12V, recommandé 11,1V) à l’aide du 2eme port du dynamixel
+*	Insert the USB2Dynamixel in the USB port of the computer 
+*	Connect the 3 pins JST connector in the USB2Dynamixel (TTL side) ansd the dynamixel to verifie or configure
+*	Select « TTL » with the switch on the USB2Dynamixel
+*	Supply the dynamixel separately in its working voltage (9-12V, recommanded 11,1V) with the second port of the dynamixel
 
  ![alt text](electronics/actuators/Dynamixels_SRC/DW_USB2Dynamixel.png )
 
-*	Sélectionner le port de votre ordinateur auquel est branché l’USB2Dynamixel
+*	Select the port of your computer where the USB2Dynamixel is connected
 
  ![alt text](electronics/actuators/Dynamixels_SRC/DW_Port.png )
 
-*	Cliquer ensuite sur « Ouvrir le port »
+*	Clic on "Open Port"
 
 ![alt text](electronics/actuators/Dynamixels_SRC/DW_OuvrirLePort.png ) 
 
-* Faire une recherche basique du dynamixel afin de trouver son ID
+* Make a basic research of the dynamixel to find its ID
 
 
-*	Il est également possible de faire des recherches plus avancées à d’autre baudrate dans le cas ou la recherche basique n’est pas concluante
-*	Une fois le dynamixel trouvé, le sélectionner à gauche de la fenêtre. 
+*	It is also possible to make advanced research on other baudrates in case of the basic research is not working
 
-*	Le détail des informations du dynamixel s’affiche
+*	Once the dynamixel found, selct it on the left side of the window 
 
-*	Dans ce détail, il est possible de modifier la configuration du dynamixel comme par exemple son ID, sa vitesse de communication (baudrate), sa vitesse de fonctionnement, etc, ou encore de le contrôler en temps réel.
+*	The details of the informations of the dynamixel appears
+
+*	in these details, it is possible to modify the configuration of the dynamixel like its ID, its communication speed (baudrate), its working speed, etc, or also to control it in real time.
 
 
-# Exemples d’utilisation
+# Exemples of use
 
-Pour pouvoir utiliser les dynamixels, il est nécessaire au préalable de télécharger la librairie « AX_12A_servo_library » se trouvant sur github
-Il faudra ensuite l’extraire et la déplacer dans Documents/Arduino/libraries.
+To use the dynamixels, it is necessary to download first the library "AX_12A_servo_library" that you can find on the github of eurobot here : https://github.com/Ecam-Eurobot/Tutorials/tree/master/src/electronics/actuators/Dynamixels_SRC
 
-Cette librairie possède 4 exemples d’utilisation du dynamixels : 
+You'll have to extract it and place it in Documents/Arduino/libraries.
+
+This library possess 4 exemples of use of the dynamixel : 
 -	Blink : exemple de contrôle de la led rouge se trouvant à l’arrière du dynamixel
 -	Move : exemple de contrôle du dynamixel en mode servomoteur en lui attribuant des positions
 -	EndlessTurn : utilisation du dynamixel en mode moteur DC (ou wheel mode)
