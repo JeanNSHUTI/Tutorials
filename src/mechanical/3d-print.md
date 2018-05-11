@@ -32,17 +32,17 @@ However, I recommend to try the parameters shown on the picture because they mak
 <!--fin de relecture-->
 ## 1.3. Think about the face laying on the heat bed
 As said before, the printer will often need support, but the orientation of the piece on the bed will also help a lot to reduce them.
-In this piece, simply by laying it on one face, you'll remove all the need of support.
+In this piece, simply by laying it on one face, you'll remove all the need for support.
 ![img](img/mechanical/3d-print/Bed_1.png)
 ![img](img/mechanical/3d-print/Bed_2.png)
 
 In this case, it would be absurd to put it on the other face as it will require a lot of support and their will be very complex to remove.
 ![img](img/mechanical/3d-print/Bed_3.png)
 
-On this final picture, imagine a lot of cube need to be plug one in another and that have to be printed on their left face.
+On this final picture, imagine many of this cubes needing to be plugged one in another and that have to be printed on their left face.
 You can use two different design:
-- In the first design, the two top cube, the top-left one (with plug on his left face), will require support.
-- In the second design, the two cube below, the low-left one (with a hole on his left face), face can be printed easily.
+- In the first design (the two top cube) the top-left one will require support.
+- In the second design (the two cube below) the low-left one can be printed easily.
 
 More, in the second design, all the cube are the same so you can print a lot of them really fast.
 ![img](img/mechanical/3d-print/Bed_4.png)
@@ -51,23 +51,23 @@ More, in the second design, all the cube are the same so you can print a lot of 
 The offer in mater of 3D printers is enormous and can be confusing to an unexperimented printer.
 And even if you know what you are looking for, you can find the same looking printer for at least 10 different prices and brands.
 As a matter of fact a lot of companies copy the "big ones" and sale these copies a lot cheaper.
-These copies can be a very good investment for non-professional work and can save you quite a few euros.
+These copies can be a very good investment for non-professional work and can save you quite a few euros, but can also be a real nightmare.
 
-A general advice is to read reviews and to try to choses a printer that a lot of people have. Isolated brands are often isolated for a very good reason (quality issues for example) and you'll struggle finding informations on settings, performances and things like parts to print to upgrade you printer.
+A general advice is to read as many reviews as possible and to try to choses a printer that a lot of people have. Isolated brands are often isolated for a very good reason (quality issues for example) and you'll struggle finding informations on settings, performances and things like parts to print to upgrade you printer.
 
 The Anet company for example is very popular brand that sells versions of open source printers.
 The are close to the cheapest you can find, but have very decent quality and high liability.
-Hereby lots of people have one and you can find tones of parts on Thingiverse to upgrade their models.
+Hereby lots of people have one and you can find tones of parts on [Thingiverse AnetA8](https://www.thingiverse.com/search/page:1?q=Anet+A8&sa=&dwh=525af4b8e015a6f) to upgrade their models.
 
 Other companies like FLSUN sale some of the same open source models (prusa i3) a like more expensive but are less reliable and upgrade parts are pretty difficult to find.
 
 So what to chose ?
 
-Well we are not going to give you a list of printers to buy of printers to buy or not to buy, but we'll try to give you guidelines to follow when comparing what the market offers.
+Well we are not going to give you a list of printers to buy or not to buy, but we'll try to give you guidelines to follow when comparing what the market offers.
 
 ## 2.1. Technologies
 Men have developed different ways to 3D print stuff, each and every one of it with its own advantages.
-The cheapest and thus most used is the extrusion of molten plastic, but others like resin printing (where a laser hits a bath of liquid resin hardening it instantly) or metal printing (same idea as for resin but with a bath of metal powder), are starting to emerge. These however are really expensive (2 000$ up to hundreds of dollars for the machine only) for the moment and won't be discussed any further.
+The cheapest and thus most used is the extrusion of molten plastic, but others like resin printing (where a laser hits a bath of liquid resin hardening it instantly) or metal printing (same idea as for resin but with a bath of metal powder), are starting to emerge. These however are really expensive (2 000$ up to hundreds of thousands of dollars for the machine only) for the moment and won't be discussed any further.
 
 The rest of this document will so only speak about plastic extrusion printing.
 
@@ -75,13 +75,13 @@ The rest of this document will so only speak about plastic extrusion printing.
 You'll find two main types of structures: cartesian and delta.
 ![img](img/mechanical/3d-print/Cartesian-3D-printer.jpg)
 
-Delta 3D printers were designed for speed, but they also have the distinction of a print bed that never moves, which may come in handy for certain print jobs.
+Delta 3D printers were designed for speed, but they also have the distinction to have a print bed that never moves, which may come in handy for certain print jobs.
 In the other hand, their speed comes with a certain weakness for details and a lack in precision.
 
 Cartesian printers are better for details and easier to build and maintain, but slower.
 
 ## 2.3. Precision
-As you might expect, cheap printers (100€-400€) don't have the same accuracy as semi-professional ones that cost about 2000€ (Ultimakers for example).
+As you might expect, cheap printers (100€-400€) don't have the same accuracy as semi-professional ones that cost about 2000€-5000€ (Ultimakers for example).
 This can be scaring at first, but think about it this way: do you really need to print at a resolution of 20 microns (an aluminum sheet is about 16 microns )?
 For most of the prints you'll make a precision of 0,2mm and a little bit of sanding is more than enough.
 You can find more than decent printers for around 200€ (Anet A6) for medium bed sizes.
@@ -90,18 +90,18 @@ Note that these printers are DIY printers so you'll have to assemble them your o
 This might take a few days, but is a piece of cake with the manual and will save you a few hundred euros.
 
 ## 2.4. Links
-To close the subject, here are some links you could find handy for you search of a 3Dprinter to acquire or to improve.
+To close the subject, here are some links you could find handy in your search of a 3Dprinter to acquire or to improve.
 - [Thingiverse AnetA8](https://www.thingiverse.com/search/page:1?q=Anet+A8&sa=&dwh=525af4b8e015a6f)
 - [Instructables improvement](http://www.instructables.com/id/Transform-a-chinese-3D-printer-in-a-high-precision/)
 - [Choose between a Bowden or Direct extruder](http://www.fabbaloo.com/blog/2015/11/11/bowden-or-direct-a-primer-on-extruder-styles)
 - [Anet A8 vs A6](https://pevly.com/anet-a8-vs-a6/)
 - [Anet A8 improvement](http://www.instructables.com/id/2000-Quality-Prints-From-a-200-Printer-an-Upgrade-/)
-<!-- Will si tu veux rajouter des liens -->
+<!-- si tu veux rajouter des liens -->
 
 
 # 3. Printer Configuration
-There are tons of different parameter that are able to influence the quality of your print.
-It would be out of the topic to list all of them here but we encourage you to read the following document to calibrate your printer the best way possible.
+There are tons of different parameters that will influence the quality of your print.
+It would be out of the topic to list them all but we encourage you to read the following document to calibrate your printer as good as possible.
 
 - [Cura's parameters for Anet A6](mechanical/References/A6_Parameters_Cura.pdf)
 - [Print Quality Troobleshooting Guide Anet](mechanical/References/Print_Quality_Troobleshooting_Guide-Anet.pdf)
