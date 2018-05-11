@@ -68,3 +68,34 @@ The final source where you may need to access the parameter server is from a lau
 ```yaml
 <param name="/motors/front/left" value="6.0"/>
 ```
+
+## Parameters files
+
+We can also create a file containing all the parameters of the project. The file is a yaml file.
+
+```yaml
+start:
+    cortex:
+        green:
+            position:
+                x: 0.1
+                y: -0.50
+                orientation: 0
+        red:
+            position:
+                x: 2.90
+                y: -0.50
+                orientation: 0
+    minus:
+        green:
+            position:
+                x: 0.5
+                y: -0.85
+                orientation: 0.0
+        red:
+            position:
+                x: 2.3
+                y: -0.9
+                orientation: 3.14159
+```
+The parameters will be accessible via a dictionary in python.
