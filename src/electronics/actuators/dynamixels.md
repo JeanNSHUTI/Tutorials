@@ -83,19 +83,19 @@ After that you have to configure 3 lines in the code that respond to the needs o
 #define ID            (1u)
 ```
 
-DirectionPin sert à indiquer le sens de communication du dynamixel, 10u étant l’écriture dans les registres il n’est pas nécessaire de modifier sa valeur.
+"DirectionPin" is used to indicate the communication direction of the dynamixel. 10u is for writing in the registers so you don't have to change the value.
 
-BaudRate définit la vitesse de communication utilisée (et configurée préalablement à l’aide du Dynamixel Wizard).
+"BaudRate" defines the communication speed used ( and configurate before with the Dynamixel Wizard)
 
-ID représente l’ID du dynamixel préalablement vérifiée ou configurée.
+"ID" represents the ID of the dynamixel that you checked or configured before for the addressing.
 
-# Références
+# References
 
--	e-manual détaillé de l’ensemble des gammes de dynamixel le AX-12A qui nous interesse ici : http://support.robotis.com/en/ 
+-	e-manual : http://support.robotis.com/en/ 
 
--	vidéo youtube reprenant différentes étapes de l’utilasation du Dynamixel Wizard : https://www.youtube.com/watch?v=YJ9b68hx5Qc&version=3&hl=ko_KR
+-	youtube vidéo for all the steps of the use of the Dynamixel Wizard : https://www.youtube.com/watch?v=YJ9b68hx5Qc&version=3&hl=ko_KR
 
--	site internet du fabricant : http://en.robotis.com
+-	website of the manufacturer : http://en.robotis.com
 
--	récupération de la librairie AX-12A : https://github.com/ThingType/AX-12A-servo-library
+- AX-12A library : https://github.com/ThingType/AX-12A-servo-library
 
