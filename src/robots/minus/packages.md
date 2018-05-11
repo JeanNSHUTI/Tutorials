@@ -92,4 +92,4 @@ Le package lit les valeurs et en fonction de la position du robot (`move_base/fe
  > For more information about what is a [publisher](software/ros/basics/pub.html), a [subscriber](software/ros/basics/sub.html) and [arduino with ros](software/ros/arduino/publisher.html).
 
  ## Strategy
- 
+
