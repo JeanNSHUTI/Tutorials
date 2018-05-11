@@ -54,8 +54,7 @@ The emplacement is taken when the splayed side is on the right then :
 2. Initialisation switch is on the right side of the strategy switch 
 3. Team switch is in the lower left corner 
 
-Finally, the starter switch is plugged on the board. It consists of a relay, sending a binary information to the ROS operating system. Linked to a 0.5m
-cable, this system allows to launch the match sequence pulling on it. 
+Finally, the starter switch is plugged on the board. It consists of a relay, sending a binary information to the ROS operating system. Linked to a 0.5m cable, this system allows to launch the match sequence pulling on it. 
 
 ### Getting Started
 
@@ -169,7 +168,7 @@ while not rospy.is_shutdown():
 
 Below, you have the circuit to implement  between the board and the raspberry running ROS
 
-[Start PCB Front](pictures/Start_F.JPG)
+[Start PCB Front](src/electronics/pcb/pictures/Start_F.JPG)
 
 * The two couples of black and red wires are the 5V 
 * The white wire is connected to the pin 12 on the raspberry and send startup interrupt information
