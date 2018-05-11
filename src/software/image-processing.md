@@ -70,7 +70,8 @@ We use a library called "goprocam" that contains all functions to control GoPro
 
 The code : 
 
-	```
+	
+	
 	#go_pro_test.py
 
 	from goprocam import GoProCamera
@@ -81,8 +82,8 @@ The code :
 
 	# Take a photo and save it in the current folder 
 	gpCam.downloadLastMedia(gpCam.take_photo(0))
- 
-	```	
+	
+	
 **Checking webcam**
 
 If you don't have a GoPro, you can also use a webcam. Type the following command line into your prompt and press enter : 
@@ -97,7 +98,7 @@ We use here "OpenCV" library to display and save images from the webcam
 
 The code : 
 
-	```
+	
 	# webcam_test.py
 
 	import cv2 
@@ -109,7 +110,6 @@ The code :
 	return_value, image = camera.read()
 	cv2.imwrite('opencv'+'.png', image)
 
-	```	
 
 **Result** : 
 	![z](img/software/image-processing/image5.png)
@@ -194,7 +194,7 @@ You'll see 3 colors frames on the picture and the final combination color on the
 
 ![z](img/software/image-processing/image6.png)
 
-## Image processing ##
+## Image processing - color_detection.py ##
 
 After taking a picture with the camera or the GoPro, we must process it to generate the color combination : 
 The program creates three frames, one for each cube and analyzes all pixels within each frame: 
