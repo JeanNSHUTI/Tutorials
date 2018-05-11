@@ -85,6 +85,10 @@ To verifiy if everything is working correctly after uploading the code you can c
 
 ![img](img/electronics/sonar/serial_monitor.png)
 
+Link to the code on Ecam Eurobot Github :  
+
+<https://github.com/Ecam-Eurobot/Eurobot-2018/blob/ultrasound/arduino/sonar_simple_test_no_ROS.ino>
+
 ## Arduino ROS code
 
 This tutorial explains the code to use and transfer sonar sensors information with ROS.
