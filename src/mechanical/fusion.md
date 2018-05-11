@@ -195,6 +195,30 @@ To **create an stl file** unselect "Send to 3D print utility" and select ok.
 
 To **3D print it from your computer** select "Send to 3D print utility" and link your slicer software by clicking on the folder icon. When the slicer is linked click "ok" and launch the print form your slicer that will have been open and loaded with the design by Fusion360.
 
+# 4. Design import and modification
+As you probably know there are tons of CAD drawing already madde that can afton help you in your designs.
+You'll find them on different format but in general, all of them can be open with fusion or a slicer to print them.
+
+The most known database are:
+- [GrabCAD](https://grabcad.com/library)
+- [Thingiverse](https://www.thingiverse.com/)
+
+In [GrabCAD](https://grabcad.com/library), you'll find *.stp*, *.sta*, *.SLDPRT* files that you'll have to send in fusion to modify them and then send them in your slicer. You'll find really useful and complex design to add to yours to verify dimension and so on.
+We used it for example for our [Home Automation Panel](https://a360.co/2wFFzCj) during the 2018 Edition, where the design of the [LCD](https://grabcad.com/library/lcd-screen-16x2-1), the [Arduino](https://grabcad.com/library/arduino-uno-18) and the [motor](https://grabcad.com/library/motor-gear-box-4) really help us to dimension the panel for them.
+
+When you'll have the file that you want to implement in Fusion, just click on the upload button (top-left corner, on the project panel).
+
+*Always use this method instead of opening the file with fusion directly or it will make fault during the conversion*
+![img](img/mechanical/fusion/Upload_1.png)
+![img](img/mechanical/fusion/Upload_2.png)
+
+You'll now have the possibility to link these new design in you main one. Just open the main design to view it, right-click on the secondary design and "Insert Into Current Design". The now linked component will be shown with some chain link on them.
+![img](img/mechanical/fusion/Upload_3.png)
+
+
+In [Thingiverse](https://www.thingiverse.com/), you'll find *.stl* files, already thought for the 3D printing, with some tips on how to print them sometimes.
+
+It's also possible to modify them with the [following steps](https://www.youtube.com/watch?v=-IE7kKxdTFY).
 
 
 --------------------------------------
