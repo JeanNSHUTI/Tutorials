@@ -1,4 +1,4 @@
-## Arduino Communication Shield - SPI Brokerµ
+## Arduino Communication Shield - SPI Broker
 
 >*last updated on May 11, 2018*
 > 
