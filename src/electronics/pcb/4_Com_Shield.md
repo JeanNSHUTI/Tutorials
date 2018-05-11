@@ -10,8 +10,8 @@ execution. As the PCB is really simple, it implements a bus SPI connection, it r
 
 The utility of this PCB concerns SPI and Ros Serial, you will find more explanation about these subjects in the related section. 
 
-[Broker Front View](electronics/pcb/pictures/Broker_F.jpg)
+![Broker Front View](electronics/pcb/pictures/Broker_F.jpg)
 
-[Broker Top View](electronics/pcb/pictures/Broker_T.jpg)
+![Broker Top View](electronics/pcb/pictures/Broker_T.jpg)
 
 --- [OneDrive link for Altium project](https://) 
