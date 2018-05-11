@@ -10,21 +10,21 @@ It's true that the ABS will have better mechanical resistance against wear and t
 
 Another simple tip is to think about the way the fibers during the use of the pieces.
 As you can see on this piece, a Pelton wheel , at first the shaft and the wheel were design as in one piece.
-![img](img/mechanical/3d-print/Pelton_wheel_1.png)
+![img](img/mechanical/3d-print/Pelton_wheel_1.PNG)
 
 After thought, as the shaft will have to oppose strength in the radial way, it's way more efficient to print it horizontaly than verticaly (where the layers would detache).
 For the wheel, it's the opposite. The spoons have to go against strength in the perpendicular way, so it had to be printed also horizontal, laying on the bed.
 It was then decided to print them in two pieces.
-![img](img/mechanical/3d-print/Pelton_wheel_2.png)
+![img](img/mechanical/3d-print/Pelton_wheel_2.PNG)
 
 ## 1.2. Think about the supports
 As you'll see in the point **3. Printer Configuration**, there are a lot of different parameters to take into account. In this point, we'll speak about the supports, their necessity and their troubles.
 As you can see on the picture below, there a lots of support placed to help the printer. As the print is done layer by layer, it needs supports to help the extrusion of part on empty space.
-![img](img/mechanical/3d-print/Support_1.png)
+![img](img/mechanical/3d-print/Support_1.PNG)
 *Note that you'll have to be in layer view to see them (Top-Right Corner)*
 
 The most used to tune your print is the **Overhang Angle**, it will allow you to control the amount and place of the supports.
-![img](img/mechanical/3d-print/Support_2.png)
+![img](img/mechanical/3d-print/Support_2.PNG)
 
 The use of limiting the amount of support is to reduce waste, reduce printing time (in this case 1h45) but also cleaning time as you'll have to cut or tear them apart by hand. There is a possibility with dual extrusion to print them with PVA (water soluble filament) but it requires a more expensive printer.
 
@@ -33,11 +33,11 @@ However, I recommend to try the parameters shown on the picture because they mak
 ## 1.3. Think about the face laying on the heat bed
 As said before, the printer will often need support, but the orientation of the piece on the bed will also help a lot to reduce them.
 In this piece, simply by laying it on one face, you'll remove all the need for support.
-![img](img/mechanical/3d-print/Bed_1.png)
-![img](img/mechanical/3d-print/Bed_2.png)
+![img](img/mechanical/3d-print/Bed_1.PNG)
+![img](img/mechanical/3d-print/Bed_2.PNG)
 
 In this case, it would be absurd to put it on the other face as it will require a lot of support and their will be very complex to remove.
-![img](img/mechanical/3d-print/Bed_3.png)
+![img](img/mechanical/3d-print/Bed_3.PNG)
 
 On this final picture, imagine many of this cubes needing to be plugged one in another and that have to be printed on their left face.
 You can use two different design:
@@ -45,7 +45,7 @@ You can use two different design:
 - In the second design (the two cube below) the low-left one can be printed easily.
 
 More, in the second design, all the cube are the same so you can print a lot of them really fast.
-![img](img/mechanical/3d-print/Bed_4.png)
+![img](img/mechanical/3d-print/Bed_4.PNG)
 
 # 2. What printer to choose?
 The offer in mater of 3D printers is enormous and can be confusing to an unexperimented printer.
