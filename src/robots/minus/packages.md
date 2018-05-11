@@ -80,3 +80,16 @@ As long as you meet these conditions, and the PID values are sane for your robot
 
 > For more information about what is a [launchfile](software/ros/basics/launch.html).
 A method for optimizing the PID parameters and calibrating the tick per meter is avalaible [there](http://wiki.ros.org/differential_drive/tutorials/setup).
+
+## Sensors
+
+Ce package nous permet de gérer la détection des obstacles grâce aux données envoyés par les capteurs ultrasons branchés à l'arduino et l'action à effectuer.
+
+L'arduino publie sur différents topics (`ultrasound_x`), les données qu'elle reçoit des capteurs.
+
+Le package lit les valeurs et en fonction de la position du robot (`move_base/feedback`) et des valeurs envoie un message d'arrêt sur un topic (`obstacle/stop`).
+
+ > For more information about what is a [publisher](software/ros/basics/pub.html), a [subscriber](software/ros/basics/sub.html) and [arduino with ros](software/ros/arduino/publisher.html).
+
+ ## Strategy
+ 
