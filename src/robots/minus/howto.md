@@ -17,3 +17,4 @@ roslaunch robot_2018 minus.launch team:=value viz:=true
 ```
 
 > Par défaut rviz ne se lance pas et si on omet de mettre le paramètre team, la valeur par défaut est inconnu.
+

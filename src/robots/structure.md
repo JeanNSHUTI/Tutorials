@@ -43,5 +43,7 @@ The different folders:
     * **sensors**: packages for ultrasound management.
     * **strategy**: package for the strategies chosen by the 2 robots.
 
+> For more information about what is a [package](software/ros/basics/packages.html) in ROS.
+
 
 
