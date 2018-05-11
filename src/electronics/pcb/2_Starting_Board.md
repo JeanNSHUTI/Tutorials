@@ -63,7 +63,7 @@ The following code is launched with ROS (if you haven't read yet this section, i
 2018 robots. The aim of this code is the setting of a parameter in a configuration file in the first place, next the code publish on the start topic 
 when the start switch is pulled. This last action indicates to all script listening this topic the beginning of a game. 
 
-'''python 
+```python 
 import sys
 import random
 import rospy
@@ -72,34 +72,34 @@ from std_msgs.msg import Empty
 raspberry = "-r" in sys.argv
 
 pi = None
-#If passed the -r argument, load the rapsberry libs
+# If passed the -r argument, load the rapsberry libs
 if raspberry:
     import pigpio
     pi = pigpio.pi()
 
 rospy.init_node('startup_conf')
 
-#Robot
+# Robot
 robot = rospy.get_param("/robot")
 
 pub_start = rospy.Publisher('start', Empty, queue_size=1)
 pub_reset = rospy.Publisher('reset', Empty, queue_size=1)
 
 
-#GPIO PIN CONFIGURATIONS
-#This pin will be used to configure the team
+# GPIO PIN CONFIGURATIONS
+# This pin will be used to configure the team
 pin_team = 23
 
-#This pin will be used to drive a led to indicate that the team has been set correctly in ROS
+# This pin will be used to drive a led to indicate that the team has been set correctly in ROS
 pin_team_feedback = 21
 
-#This pin will be used to drive a led to indicate that the start is understood by ROS
+# This pin will be used to drive a led to indicate that the start is understood by ROS
 pin_strategy_feedback = 20
 
-#This pin will be used to launch robot
+# This pin will be used to launch robot
 pin_start = 12
 
-#Function to set team parameter in the configuration file 
+# Function to set team parameter in the configuration file 
 def update_team(gpio, level, tick):
     if raspberry:
         if level:
@@ -126,7 +126,7 @@ def update_team(gpio, level, tick):
 
 publish = True
 
-#If high level on start pin this function publish on the start topic
+# If high level on start pin this function publish on the start topic
 def start(gpio, level, tick):
     global publish
     rospy.sleep(0.2)
@@ -136,7 +136,7 @@ def start(gpio, level, tick):
             pub_start.publish(Empty())
             publish = False
 
-#Function to reset all set parameters
+# Function to reset all set parameters
 def reset():
     pub_reset.publish(Empty())
     if raspberry:
@@ -165,7 +165,7 @@ else:
 
 while not rospy.is_shutdown():
     pass
-'''
+```
 
 Below, you have the circuit to implement  between the board and the raspberry running ROS
 
@@ -186,9 +186,9 @@ sequence. It was not used in 2018 due to a lack of time but they are already on 
 Finally, in the real implementation on ROS, the pin configuration is placed in a .yaml file gathering all information required about raspberry pinout.
 Then, the code used to get pin number is 
 
-'''yaml
+```yaml
 rospy.get_param("/path/name")
-'''
+```
 
 
 [Github link for code](https://github.com/Ecam-Eurobot/Eurobot-2018/blob/differential_driver/ros_packages/strategy/src/startup_conf.py)

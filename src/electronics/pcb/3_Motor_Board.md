@@ -42,7 +42,7 @@ velocity of the wheel in rad/s.
 The H bridge is used for power two motors at the same. One the left side of the board there are all control pins (PWM and DIR for the two motors)
 and power supply of command (5V). On the other side of the board, you have the motor output and the motor power supply (24V).
 
-'''cpp
+```cpp
 #includes <Wire.h>
 #includes <PID_v1.h>
 #includes <ecamlib.h>
@@ -127,7 +127,7 @@ void isrt(){
     // Angular velocity 
     omega = ( (2.0 * 3.141592 * (double)deltaEncoder) / ENCODER_TICKS_PER_REV ) / dt;  // rad/s
 }
-''' 
+```
 
 Remark : All used library is on Github (see link at the end)
 
@@ -150,7 +150,7 @@ Now the next step is to give the control of the motor velocity to ROS core on th
 concepts are explained in the ROS serial section. On the motor side, a function is added on the main code on the arduino UNO to receive data from master
 and set value of PID (proportional gain, integrative gain, derivative gain and velocity setpoints.
 
-'''cpp
+```cpp
 // function that executes whenever data is received from the master
 // this function is registered as an event, see setup()
 void receiveEvent(int howMany) {
@@ -226,7 +226,7 @@ void receiveEvent(int howMany) {
         }
     }
 }
-'''
+```
 
 ### Upload protocol for ATmega 328 
 If you understood the tutorial with arduino UNO and want to use the ATmega328, you just have to use PCB with connection show below and implement the 
