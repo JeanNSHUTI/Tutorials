@@ -168,7 +168,7 @@ while not rospy.is_shutdown():
 
 Below, you have the circuit to implement  between the board and the raspberry running ROS
 
-[Start PCB Front](src/electronics/pcb/pictures/Start_F.JPG)
+[Start PCB Front](electronics/pcb/pictures/Start_F.JPG)
 
 * The two couples of black and red wires are the 5V 
 * The white wire is connected to the pin 12 on the raspberry and send startup interrupt information
