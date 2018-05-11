@@ -17,6 +17,6 @@ failure brought a lot of problems in the communication between ROS  serial and A
 
 In the two situations, we advise against the use of these two types of connector, there are a lot of alternative solutions. 
 
-![JST connector](electronics/pcb/pictures/JST_Connector.JPG) 
+![JST connector](electronics/pcb/pictures/JST_Connector.jpg) 
 
-![10 pins shrouded headers](electronics/pcb/pictures/10Pins_shroudedHeaders.JPG)
+![10 pins shrouded headers](electronics/pcb/pictures/10Pins_shroudedHeaders.jpg)
