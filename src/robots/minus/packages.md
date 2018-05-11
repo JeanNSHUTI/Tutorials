@@ -2,20 +2,21 @@
 
 ## Differential-drive
 
-N'ayant pas le temps d'implémenter nous-même, une librairie pour gérer la navigation différentielle, nous avons chercher une librairie existante et compatible avec ROS.
+Having no time to implement ourselves, a library to manage the differential navigation, we look for an existing library compatible with ROS.
 
 This package provides some basic tools for interfacing a differential-drive robot with the ROS navigation stack.
 
 ![Schema](http://wiki.ros.org/differential_drive?action=AttachFile&do=get&target=differential_drive_overview.png)
 
-La librairie avait donc besoin de seulement 2 informations d'entrée, le retour des encodeurs de la roue gauche (**lwheel**) et droite (**rwheel**).
-En sortie, nous recevions les vitesses des 2 roues, **lmotor** et **rmotor**.
+The library therefore needed only 2 input information, the return of the encoders of the left wheel (`lwheel`) and right (`rwheel`).
+At the exit, we received the speeds of the 2 wheels, `lmotor` and `rmotor`.
 
 #### Setting up the differential-drive package PID controller
 
-La configuration du package se fait via un launchfile contenant tous les paramètres nécessaires tel que *Kp*, *Ki*, *Kd*, etc.
+The configuration of the package is done via a launchfile containing all the necessary parameters such as `Kp`, `Ki`, `Kd`, etc.
 
-Cette configuration se trouve dans le fichier `ros_packages/differential_driver/launch/minus.launch`
+This configuration is in the file
+`ros_packages/differential_driver/launch/minus.launch`
 
 ```xml
 <launch>
@@ -83,11 +84,11 @@ A method for optimizing the PID parameters and calibrating the tick per meter is
 
 ## Sensors
 
-Ce package nous permet de gérer la détection des obstacles grâce aux données envoyés par les capteurs ultrasons branchés à l'arduino et l'action à effectuer.
+This package allows us to manage the obstacle detection thanks to the data sent by the ultrasonic sensors connected to the arduino and the action to be performed.
 
-L'arduino publie sur différents topics (`ultrasound_x`), les données qu'elle reçoit des capteurs.
+The arduino publishes on various topics (`ultrasound_x`), the data it receives from the sensors.
 
-Le package lit les valeurs et en fonction de la position du robot (`move_base/feedback`) et des valeurs envoie un message d'arrêt sur un topic (`obstacle/stop`).
+The package reads the values and depending on the position of the robot (`move_base / feedback`) and the values sends a stop message on a topic (` obstacle / stop`).
 
  > For more information about what is a [publisher](software/ros/basics/pub.html), a [subscriber](software/ros/basics/sub.html) and [arduino with ros](software/ros/arduino/publisher.html).
 

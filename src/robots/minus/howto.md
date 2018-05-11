@@ -3,18 +3,18 @@
 
 ## Pendant les tests
 
-Pour lancer Minus, il suffit d'exécuter le launchfile principale de Minus qui se situe dans le package **robot_2018**.
-Il suffit donc d'effectuer la commande suivante
+To launch Minus, just run the main Minus launchfile that is in the **robot_2018** package.
+So just make the following command
 
 ```bash
 roslaunch robot_2018 minus.launch team:=value
 ```
 
-Si, on veut lancer rviz pour voir la simulation du robot il suffit de rajouter un paramètre.
+If we want to run rviz to see the simulation of the robot just add a parameter.
 
 ```bash
 roslaunch robot_2018 minus.launch team:=value viz:=true
 ```
 
-> Par défaut rviz ne se lance pas et si on omet de mettre le paramètre team, la valeur par défaut est inconnu.
+> By default, rviz does not start and if we do not set the team parameter, the default value is unknown.
 
