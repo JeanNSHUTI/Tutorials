@@ -60,13 +60,13 @@ You'll end with the line/shape you selected offset as you wanted.
 ### Sweep
 Another useful tool to make pipe, slide and so on is the "sweep" function. Start by drawing a sketch on a
 face. In our example it's going to be a double circle.
-![img](img/mechanical/fusion/Sweep_1.png)
+![img](img/mechanical/fusion/Sweep_1.PNG)
 
 Then close your current sketch. Go to another face. Start a new sketch . Use "spine" for example and draw a line following as much point as you want.
-![img](img/mechanical/fusion/Sweep_2.png)
+![img](img/mechanical/fusion/Sweep_2.PNG)
 
 You'll be able now to use "Sweep", select the space between the two circle as "profile", select the line as "path" and you'll automatically make a curved pipe!
-![img](img/mechanical/fusion/Sweep_3.png)
+![img](img/mechanical/fusion/Sweep_3.PNG)
 
 We used it for example for the [slide](https://a360.co/2Jzo4oP) in the 2018's ball mechanism.
 
@@ -107,47 +107,47 @@ Circular patterns work in a similar way accept the fact you have to choose a cen
 Available in sketch and also in 3D, the "Mirror" tool is very useful to create quickly twice the same things symmetrically from a line or a plane.
 
 For the 3D tools, start by drawing your piece, in this case a notch to close a wall.
-![img](img/mechanical/fusion/Mirror_1.png)
+![img](img/mechanical/fusion/Mirror_1.PNG)
 
 Use the Mirror tool, select the faces that you want to copy and then the plane.
-![img](img/mechanical/fusion/Mirror_2.png)
+![img](img/mechanical/fusion/Mirror_2.PNG)
 *Note that if you select only the top face of your notch you won't be able to copy it because the program doesn't allow you to create a new face in the empty space. You have to select all the three faces of your notch.*
-![img](img/mechanical/fusion/Mirror_3.png)
+![img](img/mechanical/fusion/Mirror_3.PNG)
 
 As we said, it's also available in sketch mode. So if you want to make two holes symmetrically. Just draw a circle. Draw a construction line that we'll use as our center line. Chose the distance from the center line, then select "Mirror". Select the circle as "Object" and in the "Mirror line" select the construction line
-![img](img/mechanical/fusion/Mirror_4.png)
-![img](img/mechanical/fusion/Mirror_5.png)
+![img](img/mechanical/fusion/Mirror_4.PNG)
+![img](img/mechanical/fusion/Mirror_5.PNG)
 
 We can now make our two holes. Select the two of them (by holding  "ctrl" pressed down) and then cut them through the bodie.
-![img](img/mechanical/fusion/Mirror_6.png)
+![img](img/mechanical/fusion/Mirror_6.PNG)
 
 ### Fillet
 As you used it in Autocad or similars, fillet allows you to joint two lines to make a curve.
 In Fusion 360, as a 3D software, you'll also find the possibility to "curve" your 3D body.
-![img](img/mechanical/fusion/Fillet_1.png)
+![img](img/mechanical/fusion/Fillet_1.PNG)
 <figure>
   <figcaption>Fig. - First Fillet is for sketck and the second one for 3D model.</figcaption>
 </figure>
 
 To use the sketch fillet, just select it and then click on the two lines to join.
-![img](img/mechanical/fusion/Fillet_2.png)
+![img](img/mechanical/fusion/Fillet_2.PNG)
 
 In the 3D model, just select the edge and with the arrow or value chose the radius of your fillet.
-![img](img/mechanical/fusion/Fillet_3.png)
-![img](img/mechanical/fusion/Fillet_4.png)
+![img](img/mechanical/fusion/Fillet_3.PNG)
+![img](img/mechanical/fusion/Fillet_4.PNG)
 
 ### Chamfer
 In the same way of thinking than for fillet, you'll have the possibility to make a chamfer.
-![img](img/mechanical/fusion/Chamfer_1.png)
+![img](img/mechanical/fusion/Chamfer_1.PNG)
 Select the tools and click on the edge.
-![img](img/mechanical/fusion/Chamfer_2.png)
+![img](img/mechanical/fusion/Chamfer_2.PNG)
 You'll also be able to do it with a curved edge (the one made with fillet)
-![img](img/mechanical/fusion/Chamfer_3.png)
-![img](img/mechanical/fusion/Chamfer_4.png)
+![img](img/mechanical/fusion/Chamfer_3.PNG)
+![img](img/mechanical/fusion/Chamfer_4.PNG)
 *Note that in this case you'll be limited by the angle of the previous made fillet.*
 
 Another option is to change the "Chamfer type" and select "Distance and angle" to make a chamfer with a selected angle.
-![img](img/mechanical/fusion/Chamfer_5.png)
+![img](img/mechanical/fusion/Chamfer_5.PNG)
 
 
 ### Join
@@ -209,11 +209,11 @@ We used it for example for our [Home Automation Panel](https://a360.co/2wFFzCj) 
 When you'll have the file that you want to implement in Fusion, just click on the upload button (top-left corner, on the project panel).
 
 *Always use this method instead of opening the file with fusion directly or it will make errors during the conversion*
-![img](img/mechanical/fusion/Upload_1.png)
-![img](img/mechanical/fusion/Upload_2.png)
+![img](img/mechanical/fusion/Upload_1.PNG)
+![img](img/mechanical/fusion/Upload_2.PNG)
 
 You now have the possibility to link these new designs into yours. Just open the main design to see it, right-click on the secondary design and "Insert Into Current Design". The now linked component will be shown with some chain link on it.
-![img](img/mechanical/fusion/Upload_3.png)
+![img](img/mechanical/fusion/Upload_3.PNG)
 
 
 In [Thingiverse](https://www.thingiverse.com/), you'll find *.stl* files, already thought for the 3D printing, with some tips on how to print them sometimes.
