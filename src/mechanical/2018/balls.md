@@ -69,4 +69,4 @@ And finaly, we designed a small piece that maintain the straight ramp from below
 
 ![alt text](mechanical/2018/BallGun_SRC/PieceAdjust.png )
 
-After that, all we had to do is to install the gun in the robot and make some tests to determine the best power to give as a PWM to the motor to throw the balls from the distance chosen in the tank and to incorporate the code of the ball un in the main code of the robot.
+After that, all we had to do is to install the gun in the robot and make some tests to determine the best power to give as a PWM to the motor to throw the balls from the distance chosen in the tank and to incorporate the code of the ball gun in the main code of the robot.
