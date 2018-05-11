@@ -26,7 +26,7 @@ I used a small motor driver as the L293D which the specifications were in agreem
 
 ![alt text](mechanical/2018/BallGun_SRC/L293DRecommended.png )
 
-You can find the datasheet of the L293D here : 
+You can find the datasheet of the L293D here : https://github.com/Ecam-Eurobot/Tutorials/tree/StevenGaro-patch-1/src/mechanical/2018/BallGun_SRC
 
 To control the H bridge driver, I used a simple arduino uno with a PWM signal so we could test different speeds of the motor. 
 
