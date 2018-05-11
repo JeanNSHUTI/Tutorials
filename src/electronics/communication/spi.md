@@ -216,7 +216,7 @@ When we want to read the return of a slave encoder we send a series of null byte
 
 Patch : We send velocity value instead of null bytes. (just using during the Eurobot sprint)
 
-#Just for curious
+# Just for curious
 [https://github.com/Sellto/SPIandROS_HelloWord](https://github.com/Sellto/SPIandROS_HelloWord)
 
 Three simples scripts to train you with ours SPI objects and with or without rosserial communication.
