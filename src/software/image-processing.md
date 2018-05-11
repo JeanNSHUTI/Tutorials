@@ -119,9 +119,9 @@ The code :
 
 After checking the camera, we must run a script to automate the color detection and the WiFi switching (if you use a GoPro).  
 This script makes three actions :  
-1) To Switch WiFi to connect to GoPro to obtain a picture
+1) To switch WiFi to connect to GoPro to obtain a picture
 2) To send the picture to the Raspberry to start the image processing
-3) To Give a color combination 
+3) To give a color combination 
 
 Type the following command line into your prompt and press enter to check the settings and run the script 
 
@@ -279,7 +279,7 @@ roslaunch image-processing test.launch
 rostopic echo /color_seq 
 ````
 
-![z](img/software/image-processing/image5.png)
+![z](img/software/image-processing/image7.png)
 
 ***Don't forget to change frames positions and color ranges ! (see section below)***
 ### Flashlight module
